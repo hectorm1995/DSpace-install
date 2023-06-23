@@ -211,8 +211,18 @@ sudo cp -R /dspace/webapps/* /var/lib/tomcat9/webapps*
 cd /dspace/solr
 cp -R /dspace/solr/* /opt/solr-8.11.2/server/solr/configsets
 
+# Ahora reinicie el Solr
+cd /opt/solr-8.11.2/bin
+./solr restart
 
+# Cambie los permisos de dspace a Tomcat User
+sudo chown -R tomcat:tomcat /dspace
 
+# Reinicie el Tomcat
+sudo systemctl restart tomcat9.service
+
+# VErificar si el backend esta bien realizado (Anexo 7)
+http://localhost:8080/server/#/server/api
 
 
 
