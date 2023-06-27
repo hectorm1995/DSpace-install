@@ -13,3 +13,12 @@ pm2 start dspace-ui.json
 cd /home/tics/dspace-angular-dspace-7.5
 yarn build:prod
 
+# Para modificar desde visual code
+- Instalamos visual code en ubuntu
+sudo snap install --classic code
+# Abrimos la carpeta DSPACE-ANGULAR-DSPACE 7.5
+-> scr -> themes -> dspace -> app -> header
+Y en esa carpeta se encuentran los codigos html del HOME de dspace luego de modificar 
+# abrir un nuevo terminal y ejecutar
+yarn start:dev
+
