@@ -172,6 +172,7 @@ exit
 sudo systemctl restart postgresql
 
 # Configuración de DSpace (Ingrese al directorio de configuración de dspace)
+cd
 cd DSpace-dspace-7.5/dspace/config
 
 # Haga una copia del archivo 'local.cfg.EXAMPLE' llamado 'local.cfg'
@@ -180,10 +181,11 @@ nano local.cfg
 
 # (Cambia el nombre de tu repositorio)
 dspace.name = DSpace at CRUZ ROJA JPI 
-dspace.server.url = http://localhost:8080/server
-dspace.ui.url = http://localhost:4000
+dspace.server.url = http://192.168.3.105:8080/server
+dspace.ui.url = http://192.168.3.105:4000
 # Descomentar : 
-solr.server = http://localhost:8983/solr
+solr.server = http://192.168.3.105:8983/solr
+
 # Este lo dejamos con localhost
 db.url = jdbc:postgresql://localhost:5432/dspace
 # (Cambie el nombre de usuario y la contraseña de la base de datos si hay algún cambio)
