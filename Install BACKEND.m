@@ -224,7 +224,7 @@ sudo chown -R tomcat:tomcat /dspace
 sudo systemctl restart tomcat9.service
 
 # VErificar si el backend esta bien realizado (Anexo 7)
-http://localhost:8080/server/#/server/api
+http://192.168.3.105:8080/server/#/server/api
 
 
 
