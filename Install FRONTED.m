@@ -37,12 +37,12 @@ cp config.example.yml config.prod.yml
 nano config.prod.yml
 ui:
   ssl: false
-  host: localhost
+  host: 192.168.3.105
   port: 4000
 
 rest:
   ssl: false
-  host: localhost
+  host: 192.168.3.105
   port: 8080
   # NOTE: Space is capitalized because 'namespace' is a reserved string in Type>
   nameSpace: /server
@@ -84,7 +84,7 @@ pwd
 pm2 start dspace-ui.json
 
 # Ahora es el momento de probarlo, ingresa en la web y digita tu Ip y el puerto 4000 o el que configuraste (Ver Anexo 11)
-http://localhost:4000
+http://192.168.3.105:4000
 
 # Revisa el funcionamiento de dspace con el siguiente comando, la respuesta debe ser 2000 
 pm2 logs
