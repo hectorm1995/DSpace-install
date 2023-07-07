@@ -184,7 +184,7 @@ dspace.name = DSpace at CRUZ ROJA JPI
 dspace.server.url = http://192.168.3.105:8080/server
 dspace.ui.url = http://192.168.3.105:4000
 # Descomentar : 
-solr.server = http://192.168.3.105:8983/solr
+solr.server = http://localhost:8983/solr
 
 # Este lo dejamos con localhost
 db.url = jdbc:postgresql://localhost:5432/dspace
