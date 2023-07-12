@@ -29,6 +29,7 @@ sudo rm dspace-7.5.zip
 cd /home/tics/dspace-angular-dspace-7.5
 yarn install
 
+'```python
 # Copie y cambie el nombre del archivo de configuración
 cd config 
 cp config.example.yml config.prod.yml
