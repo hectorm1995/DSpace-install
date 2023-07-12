@@ -115,5 +115,5 @@ Nota: Luego de que la máquina se reinicie no debes  agregar ningún comando  si
 directo a dspace vía web, te recomiendo primero revisar que puedas acceder a la API y 
 luego ingresar a tu repositorio
 
-
+https://docs.google.com/document/d/1gCDbxfKbzBrK8sL2n2iIia_GogduxIPh/edit
 
