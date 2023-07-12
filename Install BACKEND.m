@@ -239,6 +239,7 @@ http://192.168.3.105:8080/server/#/server/api
 
 
 
+https://docs.google.com/document/d/1Lk9rCsM1B2eGWieCiP7c8on3vC41-dCC/edit
 
 
 
