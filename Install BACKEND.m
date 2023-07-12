@@ -93,7 +93,7 @@ cd /
 sudo mkdir /dspace
 
 # Cambiale los permisos al directorio /dspace
-sudo chown -R tics:tics/dspace
+sudo chown -R tics:tics /dspace
 
 # Ingrese a .profile y (pegue la siguiente línea en el archivo para iniciar automáticamente Solr y guarde el archivo) (Anexo1)
 cd
