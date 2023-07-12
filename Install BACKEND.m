@@ -122,12 +122,14 @@ sudo nano /etc/tomcat9/server.xml
                    connectionTimeout="20000"
                    redirectPort="8443" />
 (Reemplace las líneas anteriores con las siguientes líneas)
- <Connector port="8080" protocol="HTTP/1.1"
+  <Connector port="8080" protocol="HTTP/1.1"
             minSpareThreads="25"
             enableLookups="false"
             redirectPort="8443"
             connectionTimeout="20000"
-            disableUploadTimeout="tru
+            disableUploadTimeout="true"
+            URIEncoding="UTF-8"/>
+
 # Ejecute el siguiente comando
 sudo systemctl daemon-reload
 
@@ -184,7 +186,7 @@ dspace.name = DSpace at CRUZ ROJA JPI
 dspace.server.url = http://192.168.3.105:8080/server
 dspace.ui.url = http://192.168.3.105:4000
 # Descomentar : 
-solr.server = http://localhost:8983/solr
+solr.server = http://192.168.3.105:8983/solr
 
 # Este lo dejamos con localhost
 db.url = jdbc:postgresql://localhost:5432/dspace
@@ -216,6 +218,14 @@ cp -R /dspace/solr/* /opt/solr-8.11.2/server/solr/configsets
 # Ahora reinicie el Solr
 cd /opt/solr-8.11.2/bin
 ./solr restart
+
+# Crear administrador
+cd
+sudo /dspace/bin/dspace create-administrator
+email: ticsimbabura@cruzroja.org.ec
+First name: Tics
+Last name: Imbabura
+password: admin2023
 
 # Cambie los permisos de dspace a Tomcat User
 sudo chown -R tomcat:tomcat /dspace
