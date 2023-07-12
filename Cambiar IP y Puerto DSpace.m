@@ -21,3 +21,4 @@ pwd
 pm2 start dspace-ui.json
 
 
+https://docs.google.com/document/d/1Lk9rCsM1B2eGWieCiP7c8on3vC41-dCC/edit
