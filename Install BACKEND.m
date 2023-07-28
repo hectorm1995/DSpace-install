@@ -197,7 +197,7 @@ db.password = dspace
 # Guardar y salir
 
 # Guarda la anterior configuración y dirige al directorio DSpace-dspace-7.5, luego cree el paquete de instalación (Anexo 6)
-cd DSpace-dspace-7.5/
+cd /home/tics/DSpace-dspace-7.5
 mvn package
 
 # Instale DSpace Backend (Ingrese al directorio de instalación de dspace Anexo 7)
