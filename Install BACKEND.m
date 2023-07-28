@@ -122,7 +122,7 @@ sudo nano /etc/tomcat9/server.xml
 <Connector port="8080" protocol="HTTP/1.1"
                    connectionTimeout="20000"
                    redirectPort="8443" />
-(Reemplace las líneas anteriores con las siguientes líneas)
+(Reemplace las líneas anteriores con las siguientes líneas) Anexo 5
   <Connector port="8080" protocol="HTTP/1.1"
             minSpareThreads="25"
             enableLookups="false"
@@ -196,18 +196,18 @@ db.username = dspace
 db.password = dspace  
 # Guardar y salir
 
-# Guarda la anterior configuración y dirige al directorio DSpace-dspace-7.5, luego cree el paquete de instalación (Anexo 5)
+# Guarda la anterior configuración y dirige al directorio DSpace-dspace-7.5, luego cree el paquete de instalación (Anexo 6)
 cd DSpace-dspace-7.5/
 mvn package
 
-# Instale DSpace Backend (Ingrese al directorio de instalación de dspace)
+# Instale DSpace Backend (Ingrese al directorio de instalación de dspace Anexo 7)
 cd /home/tics/DSpace-dspace-7.5/dspace/target/dspace-installer/
 ant fresh_install
 
 # Inicializar la Base de Datos (Aplicar los siguientes comandos)
 cd /dspace/bin
 ./dspace database migrate
-# Si todo esta bien debe mostrarse como la figura del ANEXO 6
+# Si todo esta bien debe mostrarse como la figura del ANEXO 8
 
 # Copie el directorio de aplicaciones web de dspace en el servidor Tomcat
 sudo cp -R /dspace/webapps/* /var/lib/tomcat9/webapps*
@@ -234,7 +234,7 @@ sudo chown -R tomcat:tomcat /dspace
 # Reinicie el Tomcat
 sudo systemctl restart tomcat9.service
 
-# VErificar si el backend esta bien realizado (Anexo 7)
+# VErificar si el backend esta bien realizado (Anexo 9)
 http://192.168.3.105:8080/server/#/server/api
 
 
