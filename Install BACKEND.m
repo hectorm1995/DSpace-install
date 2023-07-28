@@ -24,6 +24,7 @@ JAVA_OPTS="-Djava.awt.headless=true -Xmx2048m -Xms1024m -XX:MaxPermSize=1024m"
 # Guardar y Salir
 
 # Compruebe si JAVA_HOME & JAVA_OPTS se han configurado correctamente
+source /etc/environment
 echo $JAVA_HOME
 echo $JAVA_OPTS
 
