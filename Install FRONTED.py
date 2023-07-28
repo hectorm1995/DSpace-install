@@ -53,7 +53,7 @@ yarn build:prod
 # Pruebe que esté funcionando 
 # Debe dar una respuesta con numeros 200, en este caso todo estaría funcionando correctamente (Anexo 9)
 
-cd /home/dspace/dspace-angular-dspace-7.5
+cd /home/tics/dspace-angular-dspace-7.5
 yarn test:rest
 
 # Cree el archivo dspace-ui.json
