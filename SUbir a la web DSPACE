@@ -1,0 +1,7 @@
+sudo apt install apache2 -y
+sudo a2enmod proxy
+systemctl restart apache2
+sudo a2enmod proxy_http
+systemctl restart apache2
+
+sudo apt install vim
