@@ -1,3 +1,17 @@
+#BACKEND
+
+# Configuración de DSpace (Ingrese al directorio de configuración de dspace)
+cd
+cd DSpace-dspace-7.5/dspace/config
+
+# Haga una copia del archivo 'local.cfg.EXAMPLE' llamado 'local.cfg'
+cp local.cfg.EXAMPLE local.cfg
+nano local.cfg
+
+#FRONTEND
+
+
+
 # Ingresamos al directorio de instalación de DSpace:
 cd /dspace/config/
 
