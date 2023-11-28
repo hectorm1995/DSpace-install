@@ -12,4 +12,6 @@ Crear una contraseña de aplicación \
 # Configuración archivo DSPACE
 Colocar los siguientes comandos en el terminal de ubuntu \
 cd /dspace/config/  \
-sudo nano local.cfg
+sudo nano local.cfg \
+Modificar el correo electrónico y añadir la contraseña de aplicación como se muestra en la imagen  \
+![texto alternativo de texto](./Imagenes/email1.PNG) \
