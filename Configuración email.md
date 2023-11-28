@@ -6,4 +6,4 @@ Luego se realiza la verificación de 2 pasos hasta tener activa esta opción com
 -> Opción Verificación de 2 pasos 
 -> Contraseña de aplicaciones
 -> Crear una contraseña de aplicación
-![texto alternativo de texto](./Imagenes/Contraseña.PNG)
+![texto alternativo de texto](./Imagenes/contraseña.PNG)
