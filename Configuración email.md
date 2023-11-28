@@ -34,7 +34,7 @@ mail.smtp.ssl.protocols=TLSv1.2
 ```
 ![texto alternativo de texto](./Imagenes/email2.PNG) 
 
-### Una vez copiadas las líneas de código se guarda y se cierra el archivo,. A continuación, se realiza el test-email ejecutando lo siguiente:
+### Una vez copiadas las líneas de código se guarda y se cierra el archivo. A continuación, se realiza el test-email ejecutando lo siguiente:
 ```ruby
 cd
 cd /dspace
@@ -44,7 +44,7 @@ Si el proceso fue realizado con éxito aparecerá lo siguiente en la consola: \
 ![texto alternativo de texto](./Imagenes/test.PNG)   \
 Además, al correo electrónico deberá aparecer el siguiente mensaje  \
 ![texto alternativo de texto](./Imagenes/test2.PNG)   \
-Verificado eso es necesario volver a compilar los archivos del Fronted de DSPACE
+Para que los cambios surtan efecto es necesario volver a compilar los archivos del Fronted de DSPACE
 ```ruby
 cd
 cd /home/tics/dspace-angular-dspace-7.5
@@ -53,3 +53,4 @@ pm2 start /home/tics/dspace-angular-dspace-7.5/dspace-ui.json
 yarn build:prod
 sudo systemctl restart tomcat9.service
 ```
+# El proceso para enviar emails de verificación y cambio de contraseñas está listo para realizarse desde el repositorio digital
