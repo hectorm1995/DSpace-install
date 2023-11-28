@@ -17,6 +17,7 @@ Modificar el correo electrónico y añadir la contraseña de aplicación como se
 ![texto alternativo de texto](./Imagenes/email1.PNG) \
 Copiar las siguientes lineas de código como se muestra en la imagen\
 
+```
 mail.charset = UTF-8
 mail.allowed.referrers = ${dspace.hostname}  
 mail.extraproperties = mail.smtp.socketFactory.port=465, \
@@ -27,7 +28,7 @@ mail.smtp.auth=true, \
 mail.smtp.starttls.enable=true \
 mail.smtp.starttls.required=true, \
 mail.smtp.ssl.protocols=TLSv1.2
-
+```
 ![texto alternativo de texto](./Imagenes/email2.PNG) \
 
 
