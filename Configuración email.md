@@ -7,5 +7,5 @@ A la actualidad en 2023 la opción de *Menos seguridad a la cuenta* en gmail ya 
 > Opción Verificación de 2 pasos 
 > Contraseña de aplicaciones
 > Crear una contraseña de aplicación
-![texto alternativo de texto](./Imagenes/contraseña.PNG)
-*La contraseña de 16 digitos generada se debe copiar para montar en el mail server dspace*
+> ![texto alternativo de texto](./Imagenes/contraseña.PNG)
+> *La contraseña de 16 digitos generada se debe copiar para montar en el mail server dspace*
