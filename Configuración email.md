@@ -40,10 +40,10 @@ cd
 cd /dspace
 sudo ./bin/dspace test-email
 ```
-Si el proceso fue realizado con éxito aparecerá lo siguiente en la consola:
-![texto alternativo de texto](./Imagenes/test.PNG) 
-Además, al correo electrónico deberá aparecer el siguiente mensaje
-![texto alternativo de texto](./Imagenes/test2.PNG) 
+Si el proceso fue realizado con éxito aparecerá lo siguiente en la consola: \
+![texto alternativo de texto](./Imagenes/test.PNG)   \
+Además, al correo electrónico deberá aparecer el siguiente mensaje  \
+![texto alternativo de texto](./Imagenes/test2.PNG)   \
 Verificado eso es necesario volver a compilar los archivos del Fronted de DSPACE
 ```ruby
 cd
