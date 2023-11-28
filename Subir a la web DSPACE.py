@@ -7,7 +7,7 @@ systemctl restart apache2
 
 sudo apt install vim
 
-#Error en apache
+# Error en apache
 sudo apt-get autoremove --purge apache2
 systemctl start apache2
 # SI todo esta bien al colocar http://Ip debe mostrar servidor de apache funcionando
