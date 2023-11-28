@@ -11,8 +11,10 @@ Crear una contraseña de aplicación \
 *La contraseña de 16 digitos generada se debe copiar para montar en el mail server dspace*
 # Configuración archivo DSPACE
 Colocar los siguientes comandos en el terminal de ubuntu \
+```
 cd /dspace/config/  \
 sudo nano local.cfg \
+```
 Modificar el correo electrónico y añadir la contraseña de aplicación como se muestra en la imagen  \
 ![texto alternativo de texto](./Imagenes/email1.PNG) \
 Copiar las siguientes lineas de código como se muestra en la imagen\
@@ -29,6 +31,6 @@ mail.smtp.starttls.enable=true \
 mail.smtp.starttls.required=true, \
 mail.smtp.ssl.protocols=TLSv1.2
 ```
-![texto alternativo de texto](./Imagenes/email2.PNG) \
+![texto alternativo de texto](./Imagenes/email2.PNG) 
 
 
