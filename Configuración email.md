@@ -11,7 +11,7 @@ Luego se realiza la verificación de 2 pasos hasta tener activa esta opción com
 *La contraseña de 16 digitos generada se debe copiar para montar en el mail server dspace*
 # Configuración archivo DSPACE
 Colocar los siguientes comandos en el terminal de ubuntu 
-```ruby:
+```ruby
 cd /dspace/config/  \
 sudo nano local.cfg \
 ```
