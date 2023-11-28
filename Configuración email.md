@@ -7,3 +7,4 @@ Luego se realiza la verificación de 2 pasos hasta tener activa esta opción com
 -> Contraseña de aplicaciones
 -> Crear una contraseña de aplicación
 ![texto alternativo de texto](./Imagenes/contraseña.PNG)
+*La contraseña de 16 digitos generada se debe copiar para montar en el mail server dspace*
