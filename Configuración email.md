@@ -1,2 +1,2 @@
 # Crear una cuenta en gmail
-(./Imagenes/Captura.PNG)
+!(./Imagenes/Captura.PNG)
