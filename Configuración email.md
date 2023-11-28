@@ -12,14 +12,14 @@ Luego se realiza la verificación de 2 pasos hasta tener activa esta opción com
 # Configuración archivo DSPACE
 Colocar los siguientes comandos en el terminal de ubuntu 
 ```ruby
-cd /dspace/config/  \
-sudo nano local.cfg \
+cd /dspace/config/
+sudo nano local.cfg
 ```
 Modificar el correo electrónico y añadir la contraseña de aplicación como se muestra en la imagen  \
 ![texto alternativo de texto](./Imagenes/email1.PNG) \
 Copiar las siguientes lineas de código como se muestra en la imagen
 
-```
+```ruby
 mail.charset = UTF-8
 mail.allowed.referrers = ${dspace.hostname}  
 mail.extraproperties = mail.smtp.socketFactory.port=465, \
