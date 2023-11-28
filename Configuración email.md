@@ -41,4 +41,15 @@ cd /dspace
 sudo ./bin/dspace test-email
 ```
 Si el proceso fue realizado con éxito aparecerá lo siguiente en la consola:
-![texto alternativo de texto](./Imagenes/email2.PNG) 
+![texto alternativo de texto](./Imagenes/test.PNG) 
+Además, al correo electrónico deberá aparecer el siguiente mensaje
+![texto alternativo de texto](./Imagenes/test2.PNG) 
+Verificado eso es necesario volver a compilar los archivos del Fronted de DSPACE
+```ruby
+cd
+cd /home/tics/dspace-angular-dspace-7.5
+pm2 stop /home/tics/dspace-angular-dspace-7.5/dspace-ui.json
+pm2 start /home/tics/dspace-angular-dspace-7.5/dspace-ui.json
+yarn build:prod
+sudo systemctl restart tomcat9.service
+```
