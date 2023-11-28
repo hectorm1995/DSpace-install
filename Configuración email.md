@@ -12,6 +12,7 @@ Luego se realiza la verificación de 2 pasos hasta tener activa esta opción com
 # Configuración archivo DSPACE
 Colocar los siguientes comandos en el terminal de ubuntu 
 ```ruby
+cd
 cd /dspace/config/
 sudo nano local.cfg
 ```
@@ -33,4 +34,11 @@ mail.smtp.ssl.protocols=TLSv1.2
 ```
 ![texto alternativo de texto](./Imagenes/email2.PNG) 
 
-
+### Una vez copiadas las líneas de código se guarda y se cierra el archivo,. A continuación, se realiza el test-email ejecutando lo siguiente:
+```ruby
+cd
+cd /dspace
+sudo ./bin/dspace test-email
+```
+Si el proceso fue realizado con éxito aparecerá lo siguiente en la consola:
+![texto alternativo de texto](./Imagenes/email2.PNG) 
