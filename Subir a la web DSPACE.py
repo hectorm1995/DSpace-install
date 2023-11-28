@@ -27,3 +27,6 @@ sudo nano /etc/httpd/conf/httpd.conf
 # Load config files in the "/etc/httpd/conf.d" directory, if any.
 IncludeOptional conf.d/*.conf
 ServerName 127.0.0.1
+
+## Se necesita una ip publica y acceso a un cpanel
+**
