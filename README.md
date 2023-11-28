@@ -6,3 +6,24 @@
 cd /dspace/config/
 sudo nano local.cfg
 ...
+
+document.addEventListener('DOMContentLoaded', function () {
+    const codeBlocks = document.querySelectorAll('pre > code');
+    codeBlocks.forEach(function (codeBlock) {
+        const button = document.createElement('button');
+        button.className = 'copy-code-button';
+        button.textContent = 'Copy code';
+        button.addEventListener('click', function () {
+            const code = codeBlock.textContent;
+            navigator.clipboard.writeText(code).then(function () {
+                button.textContent = 'Copied!';
+                setTimeout(function () {
+                    button.textContent = 'Copy code';
+                }, 1500);
+            }).catch(function (error) {
+                console.error('Error copying code: ', error);
+            });
+        });
+        codeBlock.parentNode.insertBefore(button, codeBlock);
+    });
+});
